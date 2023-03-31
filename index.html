@@ -3,9 +3,13 @@
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
   </head>
   <body>
+      <a-assets>
+        <img id="MySky" crossorigin  src="R0010114.jpg">
+      </a-assets>
 
     <a-scene>
-      <a-sky src="R0010114.JPG"></a-sky> 
+      <a-sky src="#MySky"></a-sky> 
+       </a-sphere>
     </a-scene>
   </body>
 </html>
