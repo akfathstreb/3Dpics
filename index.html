@@ -1,15 +1,16 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <meta charset="utf-8">
+    <title>360&deg; Image: Durlach Saumarkt</title>
+    <meta name="description" content="360&deg; Image - A-Frame">
+    <script src="js/aframe-v1.0.4.js"></script>
   </head>
   <body>
-      <a-assets>
-        <img id="MySky" crossorigin  src="R0010114.jpg">
-      </a-assets>
-
     <a-scene>
-      <a-sky src="#MySky"></a-sky> 
-       </a-sphere>
+      <a-sky src="R0010114.JPG" rotation="0 -130 0"></a-sky>
+      <a-text font="kelsonsans" value="Durlach, Saumarkt, Germany" width="6" position="-3.5 2.25 -2.5" rotation="0 15 0"></a-text>
     </a-scene>
   </body>
 </html>
